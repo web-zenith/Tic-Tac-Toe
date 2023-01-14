@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/x.png" type="image/x-icon">
+    <title>Tic tac toe</title>
+</head>
+<body>
+    <div class="center_box">
+        <div class="title">Tic Tac Toe</div>
+        <div class="table_gird">
+            <div class="gird_box" boxId="0" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="1" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="2" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="3" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="4" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="5" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="6" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="7" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_box" boxId="8" disabled="false" onclick="if(this.getAttribute('disabled')=='false'){turn();main(this);}else{}"></div>
+            <div class="gird_bg"></div>
+        </div>
+        <div class="score_box">
+            <!-- <img src="image/x.png" alt="Check Your Internet"> -->
+            <b>O</b>&nbsp;&nbsp; Turn <br>
+        </div>
+    </div>
+    <div class="footer">Copyright &copy; Zenith 2023</div>
+</body>
+<script src="JS/score.js"></script>
+<script src="JS/script.js"></script>
+</html>

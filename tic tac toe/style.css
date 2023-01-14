@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: #324371;
+}
+
+*{
+    font-family: 'Sofia Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    user-select: none;
+    text-align: center;
+}
+
+.center_box{
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.264);
+}
+
+.center_box > .title{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.center_box > .table_gird{
+    /* background: #000; */
+    /* border: 2px solid red; */
+    padding: 20px;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+    border-radius: 20;
+    /* z-index: 10; */
+}
+
+.center_box > .table_gird > .gird_box{
+    display: inline-block;
+    background: #101820FF;
+    padding: 20px;
+    height: 70px;
+    width: 70px;
+    margin: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.center_box > .table_gird > .gird_box > img{
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center_box > .table_gird > .gird_bg{
+    background: #F2AA4CFF;
+    height: 346px;
+    /* z-index: -10; */
+    margin-top: -353px;
+    width: 343px;
+    margin-left: 2.8px;
+    box-shadow: 0px 0px 20px 3px #F2AA4CFF;
+}
+
+.center_box > .score_box{
+    /* background: #000; */
+    /* border: 2px solid red; */
+    padding: 20px;
+    margin: 10px;
+    height: 35px;
+    width: 350px;
+    border-radius: 20;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.center_box > .score_box > .play_again{
+    /* display: block; */
+    background: #101820FF;
+    color: #F2AA4CFF;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    /* font-weight: bold; */
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.148);
+    padding: 7px;
+    border-radius: 20px;
+    border: .5px solid grey;
+    /* font-family: 'Sofia Sans', sans-serif; */
+}
